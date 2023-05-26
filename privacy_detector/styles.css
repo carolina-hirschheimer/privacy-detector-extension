@@ -1,0 +1,74 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 400px;
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(233, 244, 248);
+    word-wrap: break-word;
+  }
+
+  h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #D5F6F9;
+  }
+
+  ul {
+    font-size: 12px;
+  }
+
+  b {
+    color: white;
+  }
+
+  .cookies {
+    background-color: #6fd0ed;
+    margin: 10px;
+    padding: 10px;
+    border: white;
+    border-radius: 6px;
+  }
+
+  .externals {
+    background-color: #6fd0ed;
+    margin: 10px;
+    padding: 10px;
+    border: white;
+    border-radius: 6px;
+  }
+
+  .SessionStorage {
+    background-color: #6fd0ed;
+    margin: 10px;
+    padding: 10px;
+    border: white;
+    border-radius: 6px;
+  }
+
+  .LocalStorage {
+    background-color: #6fd0ed;
+    margin: 10px;
+    padding: 10px;
+    border: white;
+    border-radius: 6px;
+  }
+
+  .logo-container {
+    position: relative;
+    background-color:#0484AB;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    right: 10px;
+  }
+  
+  

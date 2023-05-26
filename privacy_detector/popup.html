@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+  <body>
+
+    <div class="logo-container">
+      <img src="icons/icon48.png" alt="Image" class="logo">
+      <h1> Privacy Detector Extension </h1>  
+      
+    </div>  
+
+    <div class="cookies">
+      <b id = "cookie-title">Cookies ▾</b>
+      <ul id="cookie-list" style="display: none;">
+        <p id="total-cookies"></p>
+      </ul>
+    </div>
+
+    <div class="externals">
+      <b id = "ext-title">External connections ▾</b>
+      <ul id="external-connections"  style="display: none;">
+      </ul>
+    </div>
+
+    <div class="SessionStorage">
+      <b id = "ss-title">Session Storage ▾</b>
+      <ul id="session-storage"  style="display: none;"></ul>
+    </div>
+    
+    <div class="LocalStorage">
+      <b id = "ls-title">Local Storage ▾</b>
+      <ul id="local-storage"  style="display: none;"></ul>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+
+</html>
